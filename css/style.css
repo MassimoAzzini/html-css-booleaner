@@ -9,6 +9,10 @@ header {
   background-color: rgb(78, 160, 255);
 }
 
+main {
+  padding: 10px;
+}
+
 /* HEADER */
 #conteiner-logo {
   width: 100%;
@@ -16,15 +20,22 @@ header {
   padding: 10px;
   background-image: url(../img/pattern.png);
   background-repeat: repeat;
+  background-size: 30%;
 
 }
 
 #img-logo{
-  height: 60%;
+  height: 70%;
   margin-top: 20px;
 }
 
 /* MAIN */
+.autore {
+  font-size: 10px; 
+}
+
 #text-blue{
   color: rgb(78, 160, 255);
+  font-weight: 700;
+  
 }
