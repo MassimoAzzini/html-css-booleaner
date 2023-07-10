@@ -15,7 +15,8 @@ header {
   height: 50px;
   padding: 10px;
   background-image: url(../img/pattern.png);
-  background-size: cover;
+  background-repeat: repeat;
+
 }
 
 #img-logo{
