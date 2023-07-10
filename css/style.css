@@ -65,3 +65,29 @@ main {
 .lista li{
   margin-bottom: 5px;
 }
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  color: white;
+ 
+}
+
+.colonna-stretta {
+  width: 25%;
+}
+.colonna-larga {
+  width: 50%;
+}
+
+#row-head{
+  background-color: rgb(35, 169, 229);
+}
+
+.row-skyblue {
+  background-color: rgb(177, 229, 242);
+
+}
