@@ -1,0 +1,121 @@
+/* GENERALE */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  
+  font-size: 13px;
+}
+
+header {
+  background-color: rgb(78, 160, 255);
+}
+
+main, footer {
+  padding: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* HEADER */
+#conteiner-logo {
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  background-image: url(../img/pattern.png);
+  background-repeat: repeat;
+  background-size: 25%;
+}
+
+#img-logo{
+  height: 70%;
+  margin-top: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
+/* MAIN */
+.autore {
+  font-size: 10px;
+  margin-bottom: 5px; 
+}
+
+.conteiner-img-tim img {
+  height: 260px;  
+}
+
+.didascalie {
+  font-size: 8px;
+}
+
+#text-blue{
+  color: rgb(78, 160, 255);
+  font-weight: 700;
+}
+
+.testo-centrale {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* TABELLA */
+.lista {
+  margin: 15px;
+}
+
+.lista li{
+  margin-bottom: 5px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  color: white;
+}
+
+.colonna-stretta {
+  width: 25%;
+}
+.colonna-larga {
+  width: 50%;
+}
+
+#row-head{
+  background-color: rgb(35, 169, 229);
+}
+
+.row-skyblue {
+  background-color: rgb(177, 229, 242);
+
+}
+
+/* FOOTER */
+.contenitore-immagine {
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.pc {
+  background-image: url(../img/monitor.jpg);
+  
+}
+
+.graph {
+  background-image: url(../img/graph.jpg);
+}
+
+footer, a {
+  text-decoration: none;
+}
