@@ -23,3 +23,8 @@ header {
   height: 60%;
   margin-top: 20px;
 }
+
+/* MAIN */
+#text-blue{
+  color: rgb(78, 160, 255);
+}
