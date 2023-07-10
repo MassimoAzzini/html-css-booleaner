@@ -5,9 +5,14 @@
   padding: 0;
 }
 
+body {
+  font-size: 13px;
+}
+
 header {
   background-color: rgb(78, 160, 255);
 }
+
 
 main {
   padding: 10px;
@@ -16,11 +21,11 @@ main {
 /* HEADER */
 #conteiner-logo {
   width: 100%;
-  height: 50px;
+  height: 60px;
   padding: 10px;
   background-image: url(../img/pattern.png);
   background-repeat: repeat;
-  background-size: 30%;
+  background-size: 35%;
 
 }
 
@@ -32,11 +37,11 @@ main {
 /* MAIN */
 .autore {
   font-size: 10px;
-  margin-bottom: 3px; 
+  margin-bottom: 5px; 
 }
 
 .conteiner-img-tim img {
-  height: 250px;  
+  height: 260px;  
 }
 .didascalie {
   font-size: 8px;
@@ -45,4 +50,18 @@ main {
 #text-blue{
   color: rgb(78, 160, 255);
   font-weight: 700;
+}
+
+.testo-centrale {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.lista {
+  margin: 15px;
+}
+
+.lista li{
+  margin-bottom: 5px;
 }
